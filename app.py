@@ -3,7 +3,7 @@ import streamlit as st
 # Define the decision process
 def process_flow(leak, damage, equipment_type, sub_equipment_type, low_risk, thickness_available, acceptable_remaining_life, not_acceptable_remaining_life):
     if leak:
-       return "CR-GR-HSE-426 - found at https://prgrefep.cloud.total/_layouts' target='_blank'>Reference Link</a></h4>"
+       return "Proceed to refer CR-GR-HSE-426"
     elif damage:
         if equipment_type == "Non-pressure":
             return f"<h4 style='font-size:14px; font-family:Tw Cen MT;'>Risk assessment required</h4>"
