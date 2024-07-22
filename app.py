@@ -18,7 +18,7 @@ def process_flow(leak_confirm, damage_confirm, equipment_type, sub_equipment_typ
             else:
                 return "<h4 style='font-size:14px; font-family:Tw Cen MT;'>Proceed with further Inspection</h4><p style='font-size:12px; font-family:Tw Cen MT;'>Detail steps based on GS-511...</p>"
     else:
-        return "<h4 style='font-size:14px; font-family:Tw Cen MT;'>Generate Inspection Report</h4>"
+        return "<h4 style='font-size:14px; font-family:Tw Cen MT;'>Follow the process by choosing some of the options on the sidebar to evaluate the NC NI workflow</h4>"
 
 # Streamlit app
 st.markdown("<h2 style='font-size:20px; font-family:Tw Cen MT;'>NI Decision Process</h2>", unsafe_allow_html=True)
