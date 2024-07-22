@@ -24,7 +24,7 @@ def process_flow(leak_confirm, damage_confirm, equipment_type, sub_equipment_typ
 st.markdown("<h4 style='font-size:20px; font-family:Tw Cen MT;'>NI Decision Process</h4>", unsafe_allow_html=True)
 
 st.sidebar.markdown("<h3 style='font-size:18px; font-family:Tw Cen MT;'>Inspection Visual + NDT</h3>", unsafe_allow_html=True)
-inspection_options = st.sidebar.selectbox("Select options:", ["Leak", "Damage"])
+inspection_options = st.sidebar.selectbox("Select options:", [" ","Leak", "Damage"])
 
 leak_confirm = None
 damage_confirm = None
