@@ -55,7 +55,7 @@ if "Damage" in inspection_options:
 
 # Process the inputs and display the result
 result = process_flow(leak_confirm, damage_confirm, equipment_type, sub_equipment_type, low_risk, thickness_available, current_thickness, required_thickness)
-st.markdown(f"<div style='font-size:16px; font-family:Tw Cen MT;'>Decision: {result}</div>", unsafe_allow_html=True)
+st.markdown(f"<div style='font-size:16px; font-family:Tw Cen MT;'>Decision process workflow: {result}</div>", unsafe_allow_html=True)
 
 # Chat input streamer - commented out
 # st.markdown("<h3>Chat Input</h3>", unsafe_allow_html=True)
