@@ -3,7 +3,7 @@ import streamlit as st
 # Define the decision process
 def process_flow(leak_confirm, damage_confirm, equipment_type, sub_equipment_type, low_risk, thickness_available, current_thickness, required_thickness):
     if leak_confirm == "Yes":
-        return "<h4 style='font-size:14px; font-family:Tw Cen MT;'>CR-GR-HSE-426 - found at <a href='https://prgrefep.cloud.total/_layouts/15/WorkflowPage/FicheResume.aspx?idFiche=9945' target='_blank'>Reference Link</a></h4>"
+        return "<h4 style='font-size:14px; font-family:Tw Cen MT;'>Because you selected Yes, you have to consult CR-GR-HSE-426 - found at <a href='https://prgrefep.cloud.total/_layouts/15/WorkflowPage/FicheResume.aspx?idFiche=9945' target='_blank'>Reference Link</a></h4>"
     elif damage_confirm == "Yes":
         if equipment_type == "Non-pressure":
             return f"<h4 style='font-size:14px; font-family:Tw Cen MT;'>Risk assessment required</h4>"
