@@ -14,7 +14,7 @@ def process_flow(leak_confirm, damage_confirm, equipment_type, sub_equipment_typ
                 if current_thickness > required_thickness:
                     return "<h4 style='font-size:14px; font-family:Tw Cen MT;'>Acceptable (NC)</h4>"
                 else:
-                    return "<h4 style='font-size:14px; font-family:Tw Cen MT;'>Use NI Tool (NI)</h4>"
+                    return "<h4 style='font-size:14px; font-family:Tw Cen MT;'>Proceed to use NI Tool (NI)</h4>"
             else:
                 return "<h4 style='font-size:14px; font-family:Tw Cen MT;'>Proceed with further Inspection</h4><p style='font-size:12px; font-family:Tw Cen MT;'>Detail steps based on GS-511...</p>"
     else:
